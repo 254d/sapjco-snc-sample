@@ -1,1 +1,1 @@
-# sapjco-sample
+# sapjco-snc-sample
