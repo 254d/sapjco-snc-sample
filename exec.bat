@@ -17,7 +17,7 @@ java --enable-native-access=ALL-UNNAMED  -Djava.library.path=%dp~0 ^
   -Djco.trace_path=%JCO_TRACE_DIR% ^
   -cp ".;sapjco3.jar" ^
   StfcConnectionSnc ^
-  %dp~0sap-snc.properties ^
+  %~dp0sap-snc.properties ^
   "Hello SAP via SNC"
 
 pause
